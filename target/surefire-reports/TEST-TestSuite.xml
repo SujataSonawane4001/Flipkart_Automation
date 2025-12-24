@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="709.802" tests="57" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\sujus\eclipse-workspace\Flipkart\target\test-classes;C:\Users\sujus\eclipse-workspace\Flipkart\target\classes;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\sujus\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\sujus\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\sujus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sujus\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\sujus\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\sujus\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\sujus\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\sujus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sujus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sujus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sujus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\sujus\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\sujus\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\sujus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\sujus\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sujus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\sujus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sujus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sujus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\sujus\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sujus\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sujus\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sujus\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sujus\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sujus\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\sujus\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sujus\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sujus\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\sujus\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\sujus\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sujus\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sujus\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\sujus\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\sujus\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;C:\Users\sujus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\sujus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\sujus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\sujus\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\sujus\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\sujus\AppData\Local\Temp\surefire2178036395586946650\surefirebooter-20251224122748562_3.jar C:\Users\sujus\AppData\Local\Temp\surefire2178036395586946650 2025-12-24T12-27-48_124-jvmRun1 surefire-20251224122748562_1tmp surefire_0-20251224122748562_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sujus\eclipse-workspace\Flipkart\target\test-classes;C:\Users\sujus\eclipse-workspace\Flipkart\target\classes;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\sujus\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\sujus\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\sujus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sujus\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\sujus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\sujus\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\sujus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\sujus\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\sujus\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\sujus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sujus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sujus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sujus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\sujus\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\sujus\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\sujus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\sujus\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\sujus\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sujus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\sujus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sujus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sujus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\sujus\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sujus\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sujus\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sujus\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sujus\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sujus\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\sujus\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sujus\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sujus\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\sujus\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\sujus\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sujus\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sujus\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\sujus\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\sujus\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;C:\Users\sujus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\sujus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\sujus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\sujus\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\sujus\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\sujus\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sujus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sujus\eclipse-workspace\Flipkart"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sujus\AppData\Local\Temp\surefire2178036395586946650\surefirebooter-20251224122748562_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="sujus"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sujus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sujus\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="C:\Users\sujus\eclipse-workspace\Flipkart"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.12\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\sujus\AppData\Local\Microsoft\WindowsApps;C:\Users\sujus\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="verifyLogoDisplayed" classname="com.flipkart.testcases.HomePageTest" time="1.241">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:27:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginButton" classname="com.flipkart.testcases.HomePageTest" time="3.381">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:28:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyBecomeSellerNavigation" classname="com.flipkart.testcases.HomePageTest" time="8.483">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:28:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyGroceryCategoryNavigation" classname="com.flipkart.testcases.HomePageTest" time="2.803">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:28:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyFashionSubCategoryNavigation" classname="com.flipkart.testcases.HomePageTest" time="5.099">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:28:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyElectronicsSubCategoryNavigation" classname="com.flipkart.testcases.HomePageTest" time="4.778">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:28:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyFurnitureSubCategoryNavigation" classname="com.flipkart.testcases.HomePageTest" time="3.759">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:29:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitle" classname="com.flipkart.testcases.HomePageTest" time="0.683">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:29:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchBoxEnabled" classname="com.flipkart.testcases.HomePageTest" time="0.325">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:29:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifycartIconVisible" classname="com.flipkart.testcases.HomePageTest" time="0.389">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:29:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAbletoSerachProduct" classname="com.flipkart.testcases.HomePageTest" time="4.381">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:29:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyValidProductSearch" classname="com.flipkart.testcases.ProductSearchTest" time="4.937">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:29:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchResultDisplay" classname="com.flipkart.testcases.ProductSearchTest" time="4.858">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:30:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchUsingEnterKey" classname="com.flipkart.testcases.ProductSearchTest" time="4.764">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:30:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyEmptySearch" classname="com.flipkart.testcases.ProductSearchTest" time="1.237">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:30:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchWithSpecialCharacter" classname="com.flipkart.testcases.ProductSearchTest" time="4.061">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:30:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchWithLongText" classname="com.flipkart.testcases.ProductSearchTest" time="6.004">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:30:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchWithNumber" classname="com.flipkart.testcases.ProductSearchTest" time="5.181">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:30:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductWithMultipleSearch" classname="com.flipkart.testcases.ProductSearchTest" time="4.831">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:31:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchIncaseSensitive" classname="com.flipkart.testcases.ProductSearchTest" time="4.939">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:31:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPlaceholderTextIsDisplayedWhenTheSearchBarIsEmpty" classname="com.flipkart.testcases.ProductSearchTest" time="0.499">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+true
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:31:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchWithPartialText" classname="com.flipkart.testcases.ProductSearchTest" time="5.934">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:31:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDefaultSorting" classname="com.flipkart.testcases.SearchResultFilterTest" time="5.424">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:32:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyResultCountIsDisplayed" classname="com.flipkart.testcases.SearchResultFilterTest" time="4.962">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:32:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySortByReleveance" classname="com.flipkart.testcases.SearchResultFilterTest" time="6.278">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:32:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductCountRemainsSameAfterSortByReleveance" classname="com.flipkart.testcases.SearchResultFilterTest" time="6.64">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:32:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySortByPopularity" classname="com.flipkart.testcases.SearchResultFilterTest" time="7.441">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:32:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySortByPriceLowToHigh" classname="com.flipkart.testcases.SearchResultFilterTest" time="12.541">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+click on price
+wait for product load
+[480, 490, 490, 490, 495, 495, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499, 499]
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:33:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySortByNewestFirst" classname="com.flipkart.testcases.SearchResultFilterTest" time="7.37">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:33:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyMultipleSortOperations" classname="com.flipkart.testcases.SearchResultFilterTest" time="9.562">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:33:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSearchWithSecondSuggestionText" classname="com.flipkart.testcases.SearchResultFilterTest" time="8.036">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:33:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchFunctionalityUsingDDT[mobile](1)" classname="com.flipkart.testcases.ProductSearchUsingDDT" time="5.059">
+    <system-out><![CDATA[mobile
+laptop
+tshirt
+jeans
+furniture
+Fastrack
+Wallets
+Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:34:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchFunctionalityUsingDDT[laptop](2)" classname="com.flipkart.testcases.ProductSearchUsingDDT" time="4.799">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:34:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchFunctionalityUsingDDT[tshirt](3)" classname="com.flipkart.testcases.ProductSearchUsingDDT" time="6.555">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:34:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchFunctionalityUsingDDT[jeans](4)" classname="com.flipkart.testcases.ProductSearchUsingDDT" time="6.162">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:34:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchFunctionalityUsingDDT[furniture](5)" classname="com.flipkart.testcases.ProductSearchUsingDDT" time="5.914">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:35:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchFunctionalityUsingDDT[Fastrack](6)" classname="com.flipkart.testcases.ProductSearchUsingDDT" time="6.07">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:35:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchFunctionalityUsingDDT[Wallets](7)" classname="com.flipkart.testcases.ProductSearchUsingDDT" time="5.835">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:35:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginButtonDisplayed" classname="com.flipkart.testcases.LoginPageTest" time="0.378">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:35:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUsernameTextboxDisplayed" classname="com.flipkart.testcases.LoginPageTest" time="5.213">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:35:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUsernameTextboxEnabled" classname="com.flipkart.testcases.LoginPageTest" time="5.077">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:36:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPlaceholderTextDisplayed" classname="com.flipkart.testcases.LoginPageTest" time="3.027">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:36:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTermsOfUseNaviagtion" classname="com.flipkart.testcases.LoginPageTest" time="5.075">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+Switched to window with title: Terms Store Online - Buy Terms Online at Best Price in India | Flipkart.com
+Terms Store Online - Buy Terms Online at Best Price in India | Flipkart.com
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:36:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPrivacyPolicyNaviagtion" classname="com.flipkart.testcases.LoginPageTest" time="4.941">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+Switched to window with title: Privacypolicy Store Online - Buy Privacypolicy Online at Best Price in India | Flipkart.com
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:36:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateNewUserLinkVisible" classname="com.flipkart.testcases.LoginPageTest" time="3.251">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:36:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateNewUserLinkEnabled" classname="com.flipkart.testcases.LoginPageTest" time="3.494">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:37:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserLogin" classname="com.flipkart.testcases.LoginPageTest" time="7.53">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:37:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateNewUserLinkNavigation" classname="com.flipkart.testcases.LoginPageTest" time="8.129">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:37:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCartFunctionality" classname="com.flipkart.testcases.AddToCartTest" time="12.693">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:37:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCartFunctionalityWithBuyNowOption" classname="com.flipkart.testcases.AddToCartTest" time="12.329">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:38:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignupNavigation" classname="com.flipkart.testcases.SignInPageTest" time="3.296">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:38:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContinueButton" classname="com.flipkart.testcases.SignInPageTest" time="3.648">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:38:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContinueButtonEnabled" classname="com.flipkart.testcases.SignInPageTest" time="3.576">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:38:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyExistingUserLinkIsEnabled" classname="com.flipkart.testcases.SignInPageTest" time="3.574">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:38:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyExistingUserLinkIsDisplayed" classname="com.flipkart.testcases.SignInPageTest" time="3.596">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:39:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyExistingUserNavigation" classname="com.flipkart.testcases.SignInPageTest" time="4.677">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:39:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyValidationMessage" classname="com.flipkart.testcases.SignInPageTest" time="4.22">
+    <system-out><![CDATA[Launched Chrome browser
+Launched Url: https://www.flipkart.com/
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 12:39:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+</testsuite>
