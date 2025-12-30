@@ -18,7 +18,7 @@ public class AddToCartTest extends TestBase {
 	public void verifyAddToCartFunctionality() throws InterruptedException {
 		LOG.info("AddToCart Functionality verifies");
 		HomePage homepage = new HomePage();
-		homepage.searchForProduct("mobile");
+		homepage.searchForProduct("tv");
 		SearchResultPage searchresult = new SearchResultPage();
 		searchresult.waitForProductsToLoad();
 		AddToCartPage cart=new AddToCartPage();
@@ -37,7 +37,7 @@ public class AddToCartTest extends TestBase {
 	public void verifyAddToCartFunctionalityWithBuyNowOption() throws InterruptedException {
 		LOG.info("AddToCart Functionality With BuyNowOption verifies");
 		HomePage homepage = new HomePage();
-		homepage.searchForProduct("mobile");
+		homepage.searchForProduct("tv");
 		SearchResultPage searchresult = new SearchResultPage();
 		searchresult.waitForProductsToLoad();
 		AddToCartPage cart=new AddToCartPage();

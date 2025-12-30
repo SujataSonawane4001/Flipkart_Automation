@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.flipkart.testcases.SearchResultFilterTest">
+      <class name="com.flipkart.testcases.AddToCartTest">
         <methods>
+          <include name="verifyAddToCartFunctionalityWithBuyNowOption"/>
           <include name="setUp"/>
-          <include name="verifySortByPriceHighToLow"/>
           <include name="tearDown"/>
+          <include name="verifyAddToCartFunctionality"/>
         </methods>
-      </class> <!-- com.flipkart.testcases.SearchResultFilterTest -->
+      </class> <!-- com.flipkart.testcases.AddToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1415,3 +1415,247 @@
 12:39:19.675 [main] INFO  com.flipkart.testcases.SignInPageTest - Existing User Navigation verifies
 12:39:24.837 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
 12:39:31.104 [main] INFO  com.flipkart.testcases.SignInPageTest - Validation Message verifies
+15:02:15.803 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+15:02:31.320 [main] INFO  com.flipkart.testcases.HomePageTest - Logo verifies
+15:02:32.705 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+15:02:36.927 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:20:36.539 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:21:15.225 [main] INFO  com.flipkart.testcases.HomePageTest - Logo verifies
+10:21:17.659 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:21:29.280 [main] INFO  com.flipkart.testcases.HomePageTest - LoginButton verifies
+10:21:35.084 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:21:47.372 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
+10:22:10.733 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:22:17.343 [main] INFO  com.flipkart.testcases.HomePageTest - Grocery Category Navigation verifies
+10:22:21.364 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:22:31.872 [main] INFO  com.flipkart.testcases.HomePageTest - Fashion SubCategory Navigation verifies
+10:22:43.094 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:22:52.419 [main] INFO  com.flipkart.testcases.HomePageTest - Electronics SubCategory Navigation verifies
+10:22:58.472 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:23:06.091 [main] INFO  com.flipkart.testcases.HomePageTest - Furniture SubCategory Navigation verifies
+10:23:12.422 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:23:20.243 [main] INFO  com.flipkart.testcases.HomePageTest - HomePage Title verifies
+10:23:21.062 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:23:27.968 [main] INFO  com.flipkart.testcases.HomePageTest - SearchBox Enabled verifies
+10:23:29.058 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:23:37.328 [main] INFO  com.flipkart.testcases.HomePageTest - cartIcon Visible verifies
+10:23:38.207 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:23:47.350 [main] INFO  com.flipkart.testcases.HomePageTest - Able to Serach Product verifies
+10:23:57.527 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:24:04.800 [main] INFO  com.flipkart.testcases.ProductSearchTest - Valid Product Search verifies
+10:24:10.411 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:24:16.731 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search Result Display verifies
+10:24:24.148 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:24:35.653 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search Using EnterKey verifies
+10:24:44.246 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:24:53.088 [main] INFO  com.flipkart.testcases.ProductSearchTest - Empty Search verifies
+10:24:54.916 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:25:01.605 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With Special Character verifies
+10:25:06.182 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:25:13.843 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With LongText verifies
+10:25:19.565 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:25:26.368 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With Number verifies
+10:25:34.286 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:25:40.511 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product With Multiple Search verifies
+10:25:47.823 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:25:59.923 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search In case Sensitive verifies
+10:26:06.852 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:26:13.673 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search In case Sensitive verifies
+10:26:14.336 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:26:20.556 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With Partial Text verifies
+10:26:29.647 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:26:35.865 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Default Sorting verifies
+10:26:43.301 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:26:50.099 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Result Count IsDisplayed verifies
+10:26:57.177 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:27:04.223 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort ByReleveance verifies
+10:27:11.484 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:27:17.550 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Product Count Remains Same After Sort ByReleveance verifies
+10:27:25.392 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:27:31.725 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Popularity verifies
+10:27:38.968 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:27:46.661 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Price LowToHigh verifies
+10:28:42.934 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:28:51.611 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By NewestFirst verifies
+10:28:58.946 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:29:07.261 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Multiple Sort Operation verifies
+10:29:17.534 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:29:37.253 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Product Search With Second Suggestion Text verifies
+10:29:56.302 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:30:06.325 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+10:30:14.205 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:30:25.179 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+10:30:57.078 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:31:16.838 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+10:31:31.266 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:31:42.958 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+10:31:59.727 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:32:06.042 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+10:32:14.173 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:32:19.864 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+10:32:26.140 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:32:32.030 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+10:32:37.638 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:32:44.313 [main] INFO  com.flipkart.testcases.LoginPageTest - Login Button Displayed verifies
+10:32:45.355 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:32:51.968 [main] INFO  com.flipkart.testcases.LoginPageTest - Username Textbox Displayed verifies
+10:32:58.077 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:33:04.943 [main] INFO  com.flipkart.testcases.LoginPageTest - Username Textbox Enabled verifies
+10:33:10.613 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:33:18.169 [main] INFO  com.flipkart.testcases.LoginPageTest - Placeholder Text Displayed verifies
+10:33:21.941 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:33:29.895 [main] INFO  com.flipkart.testcases.LoginPageTest - TermsOfUse Naviagtion verifies
+10:33:36.005 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:33:44.223 [main] INFO  com.flipkart.testcases.LoginPageTest - Privacy Policy Naviagtion verifies
+10:33:53.916 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:34:01.615 [main] INFO  com.flipkart.testcases.LoginPageTest - Create NewUserLink Visible verifies
+10:34:05.158 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:34:12.030 [main] INFO  com.flipkart.testcases.LoginPageTest - CreateNewUser Link Enabled verifies
+10:34:15.515 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:34:21.096 [main] INFO  com.flipkart.testcases.LoginPageTest - UserLogin verifies
+10:34:29.184 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:34:37.088 [main] INFO  com.flipkart.testcases.LoginPageTest - Create NewUser Link Navigation verifies
+10:34:46.816 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:34:55.630 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality verifies
+10:35:26.130 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:35:43.236 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality With BuyNowOption verifies
+10:36:16.847 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:36:34.346 [main] INFO  com.flipkart.testcases.SignInPageTest - Signup Navigation verifies
+10:36:44.546 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:36:53.940 [main] INFO  com.flipkart.testcases.SignInPageTest - Continue Button verifies
+10:37:00.905 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:37:15.290 [main] INFO  com.flipkart.testcases.SignInPageTest - Continue Button Enabled verifies
+10:37:21.866 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:37:34.264 [main] INFO  com.flipkart.testcases.SignInPageTest - Existing User Link IsEnabled verifies
+10:37:42.126 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:37:53.112 [main] INFO  com.flipkart.testcases.SignInPageTest - Existing User Link IsDisplayed verifies
+10:38:00.266 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:38:10.962 [main] INFO  com.flipkart.testcases.SignInPageTest - Existing User Navigation verifies
+10:38:18.770 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:38:31.580 [main] INFO  com.flipkart.testcases.SignInPageTest - Validation Message verifies
+10:41:56.467 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:42:11.501 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality verifies
+10:42:45.367 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+10:42:55.256 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality With BuyNowOption verifies
+11:07:40.653 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:08:01.039 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality verifies
+11:08:41.059 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:09:03.162 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality With BuyNowOption verifies
+11:14:04.577 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:14:14.422 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality verifies
+11:14:28.415 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:14:36.012 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality With BuyNowOption verifies
+11:15:19.211 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:15:27.439 [main] INFO  com.flipkart.testcases.HomePageTest - Logo verifies
+11:15:29.654 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:15:37.515 [main] INFO  com.flipkart.testcases.HomePageTest - LoginButton verifies
+11:15:40.971 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:15:48.804 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
+11:16:08.796 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:16:16.058 [main] INFO  com.flipkart.testcases.HomePageTest - Grocery Category Navigation verifies
+11:16:19.851 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:16:28.084 [main] INFO  com.flipkart.testcases.HomePageTest - Fashion SubCategory Navigation verifies
+11:16:37.384 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:16:54.702 [main] INFO  com.flipkart.testcases.HomePageTest - Electronics SubCategory Navigation verifies
+11:17:15.347 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:17:35.296 [main] INFO  com.flipkart.testcases.HomePageTest - Furniture SubCategory Navigation verifies
+11:18:00.444 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:18:23.664 [main] INFO  com.flipkart.testcases.HomePageTest - HomePage Title verifies
+11:18:23.974 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:18:50.589 [main] INFO  com.flipkart.testcases.HomePageTest - SearchBox Enabled verifies
+11:18:50.908 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:19:04.778 [main] INFO  com.flipkart.testcases.HomePageTest - cartIcon Visible verifies
+11:19:05.418 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:19:19.306 [main] INFO  com.flipkart.testcases.HomePageTest - Able to Serach Product verifies
+11:19:26.741 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:19:41.774 [main] INFO  com.flipkart.testcases.ProductSearchTest - Valid Product Search verifies
+11:19:53.028 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:20:00.488 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search Result Display verifies
+11:20:05.940 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:20:10.555 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search Using EnterKey verifies
+11:20:15.269 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:20:21.915 [main] INFO  com.flipkart.testcases.ProductSearchTest - Empty Search verifies
+11:20:24.234 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:20:31.696 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With Special Character verifies
+11:20:35.984 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:20:44.469 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With LongText verifies
+11:20:50.671 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:21:00.330 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With Number verifies
+11:21:09.201 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:21:36.864 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product With Multiple Search verifies
+11:21:51.137 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:22:03.866 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search In case Sensitive verifies
+11:22:16.468 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:22:25.541 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search In case Sensitive verifies
+11:22:26.428 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:22:43.499 [main] INFO  com.flipkart.testcases.ProductSearchTest - Product Search With Partial Text verifies
+11:22:58.561 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:23:12.074 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Default Sorting verifies
+11:23:20.347 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:23:35.685 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Result Count IsDisplayed verifies
+11:23:46.224 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:24:07.574 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort ByReleveance verifies
+11:24:29.733 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:24:49.012 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Product Count Remains Same After Sort ByReleveance verifies
+11:25:05.236 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:25:16.696 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Popularity verifies
+11:25:26.516 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:25:40.076 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Price LowToHigh verifies
+11:25:56.967 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:26:04.011 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By NewestFirst verifies
+11:26:13.420 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:26:21.220 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Multiple Sort Operation verifies
+11:26:30.474 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:26:38.658 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Product Search With Second Suggestion Text verifies
+11:26:50.829 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:26:59.169 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+11:27:05.270 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:27:11.124 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+11:27:20.327 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:27:28.054 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+11:27:35.371 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:27:40.792 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+11:27:47.942 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:27:54.301 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+11:28:12.386 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:28:25.489 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+11:28:33.185 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:28:40.327 [main] INFO  com.flipkart.testcases.ProductSearchUsingDDT - verify Search Functionality Using DDT verifies
+11:28:47.825 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:28:54.945 [main] INFO  com.flipkart.testcases.LoginPageTest - Login Button Displayed verifies
+11:28:55.547 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:29:03.687 [main] INFO  com.flipkart.testcases.LoginPageTest - Username Textbox Displayed verifies
+11:29:10.301 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:29:20.308 [main] INFO  com.flipkart.testcases.LoginPageTest - Username Textbox Enabled verifies
+11:29:29.162 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:29:41.103 [main] INFO  com.flipkart.testcases.LoginPageTest - Placeholder Text Displayed verifies
+11:29:45.973 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:29:53.343 [main] INFO  com.flipkart.testcases.LoginPageTest - TermsOfUse Naviagtion verifies
+11:30:00.912 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:30:10.827 [main] INFO  com.flipkart.testcases.LoginPageTest - Privacy Policy Naviagtion verifies
+11:30:17.514 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:30:28.284 [main] INFO  com.flipkart.testcases.LoginPageTest - Create NewUserLink Visible verifies
+11:30:33.220 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:30:41.634 [main] INFO  com.flipkart.testcases.LoginPageTest - CreateNewUser Link Enabled verifies
+11:30:45.402 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:30:52.514 [main] INFO  com.flipkart.testcases.LoginPageTest - UserLogin verifies
+11:31:05.509 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:31:14.804 [main] INFO  com.flipkart.testcases.LoginPageTest - Create NewUser Link Navigation verifies
+11:31:25.733 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:31:37.380 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality verifies
+11:31:57.984 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:32:13.635 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality With BuyNowOption verifies
+11:32:30.946 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:32:40.186 [main] INFO  com.flipkart.testcases.SignInPageTest - Signup Navigation verifies
+11:32:52.437 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:33:07.027 [main] INFO  com.flipkart.testcases.SignInPageTest - Continue Button verifies
+11:33:15.142 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:33:25.073 [main] INFO  com.flipkart.testcases.SignInPageTest - Continue Button Enabled verifies
+11:33:30.042 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:33:39.614 [main] INFO  com.flipkart.testcases.SignInPageTest - Existing User Link IsEnabled verifies
+11:33:46.816 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:33:56.896 [main] INFO  com.flipkart.testcases.SignInPageTest - Existing User Link IsDisplayed verifies
+11:34:01.973 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:34:14.907 [main] INFO  com.flipkart.testcases.SignInPageTest - Existing User Navigation verifies
+11:34:21.847 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+11:34:33.359 [main] INFO  com.flipkart.testcases.SignInPageTest - Validation Message verifies

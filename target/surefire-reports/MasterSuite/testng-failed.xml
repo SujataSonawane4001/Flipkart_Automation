@@ -7,13 +7,14 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser-name" value="Chrome"/>
     <classes>
-      <class name="com.flipkart.testcases.SearchResultFilterTest">
+      <class name="com.flipkart.testcases.AddToCartTest">
         <methods>
+          <include name="verifyAddToCartFunctionalityWithBuyNowOption"/>
           <include name="setUp"/>
-          <include name="verifySortByPriceHighToLow"/>
           <include name="tearDown"/>
+          <include name="verifyAddToCartFunctionality"/>
         </methods>
-      </class> <!-- com.flipkart.testcases.SearchResultFilterTest -->
+      </class> <!-- com.flipkart.testcases.AddToCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MasterSuite] -->
