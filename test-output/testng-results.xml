@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-30T16:03:06 IST" name="Default suite" finished-at="2025-12-30T16:03:34 IST" duration-ms="28016">
+  <suite started-at="2025-12-30T16:59:29 IST" name="Default suite" finished-at="2025-12-30T17:05:53 IST" duration-ms="383780">
     <groups>
+      <group name="Master">
+        <method signature="SearchResultFilterTest.verifySortByPopularity()[pri:5, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" name="verifySortByPopularity" class="com.flipkart.testcases.SearchResultFilterTest"/>
+        <method signature="SearchResultFilterTest.verifySortByPriceLowToHigh()[pri:6, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" name="verifySortByPriceLowToHigh" class="com.flipkart.testcases.SearchResultFilterTest"/>
+      </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="AddToCartTest.verifyAddToCartFunctionalityWithBuyNowOption()[pri:2, instance:com.flipkart.testcases.AddToCartTest@31d0e481]" name="verifyAddToCartFunctionalityWithBuyNowOption" class="com.flipkart.testcases.AddToCartTest"/>
+        <method signature="SearchResultFilterTest.verifyDefaultSorting()[pri:1, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" name="verifyDefaultSorting" class="com.flipkart.testcases.SearchResultFilterTest"/>
+        <method signature="SearchResultFilterTest.verifyMultipleSortOperations()[pri:9, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" name="verifyMultipleSortOperations" class="com.flipkart.testcases.SearchResultFilterTest"/>
       </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="SearchResultFilterTest.verifyDefaultSorting()[pri:1, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" name="verifyDefaultSorting" class="com.flipkart.testcases.SearchResultFilterTest"/>
+        <method signature="SearchResultFilterTest.verifySortByReleveance()[pri:3, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" name="verifySortByReleveance" class="com.flipkart.testcases.SearchResultFilterTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-12-30T16:03:06 IST" name="Default test" finished-at="2025-12-30T16:03:34 IST" duration-ms="28016">
-      <class name="com.flipkart.testcases.AddToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.AddToCartTest@31d0e481]" started-at="2025-12-30T16:03:06 IST" name="setUp" finished-at="2025-12-30T16:03:17 IST" duration-ms="11121" status="PASS">
+    <test started-at="2025-12-30T16:59:29 IST" name="Default test" finished-at="2025-12-30T17:05:53 IST" duration-ms="383780">
+      <class name="com.flipkart.testcases.SearchResultFilterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T16:59:29 IST" name="setUp" finished-at="2025-12-30T17:00:14 IST" duration-ms="44400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,15 +30,167 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAddToCartFunctionalityWithBuyNowOption()[pri:2, instance:com.flipkart.testcases.AddToCartTest@31d0e481]" started-at="2025-12-30T16:03:17 IST" name="verifyAddToCartFunctionalityWithBuyNowOption" finished-at="2025-12-30T16:03:34 IST" duration-ms="16519" status="PASS">
+        <test-method signature="verifyDefaultSorting()[pri:1, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:00:14 IST" name="verifyDefaultSorting" finished-at="2025-12-30T17:00:34 IST" duration-ms="20438" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddToCartFunctionalityWithBuyNowOption -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.AddToCartTest@31d0e481]" started-at="2025-12-30T16:03:34 IST" name="tearDown" finished-at="2025-12-30T16:03:34 IST" duration-ms="322" status="PASS">
+        </test-method> <!-- verifyDefaultSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:00:34 IST" name="tearDown" finished-at="2025-12-30T17:00:35 IST" duration-ms="1121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.flipkart.testcases.AddToCartTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:00:35 IST" name="setUp" finished-at="2025-12-30T17:01:08 IST" duration-ms="32839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyResultCountIsDisplayed()[pri:2, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:01:08 IST" name="verifyResultCountIsDisplayed" finished-at="2025-12-30T17:01:32 IST" duration-ms="23333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultCountIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:01:32 IST" name="tearDown" finished-at="2025-12-30T17:01:33 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:01:33 IST" name="setUp" finished-at="2025-12-30T17:01:48 IST" duration-ms="14530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySortByReleveance()[pri:3, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:01:48 IST" name="verifySortByReleveance" finished-at="2025-12-30T17:02:10 IST" duration-ms="22256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByReleveance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:02:10 IST" name="tearDown" finished-at="2025-12-30T17:02:11 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:02:11 IST" name="setUp" finished-at="2025-12-30T17:02:26 IST" duration-ms="15387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductCountRemainsSameAfterSortByReleveance()[pri:4, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:02:26 IST" name="verifyProductCountRemainsSameAfterSortByReleveance" finished-at="2025-12-30T17:02:44 IST" duration-ms="17107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCountRemainsSameAfterSortByReleveance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:02:44 IST" name="tearDown" finished-at="2025-12-30T17:02:44 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:02:44 IST" name="setUp" finished-at="2025-12-30T17:03:11 IST" duration-ms="26851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySortByPopularity()[pri:5, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:03:11 IST" name="verifySortByPopularity" finished-at="2025-12-30T17:03:31 IST" duration-ms="20194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByPopularity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:03:31 IST" name="tearDown" finished-at="2025-12-30T17:03:32 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:03:32 IST" name="setUp" finished-at="2025-12-30T17:03:49 IST" duration-ms="17072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySortByPriceLowToHigh()[pri:6, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:03:49 IST" name="verifySortByPriceLowToHigh" finished-at="2025-12-30T17:04:11 IST" duration-ms="21604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:04:11 IST" name="tearDown" finished-at="2025-12-30T17:04:11 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:04:11 IST" name="setUp" finished-at="2025-12-30T17:04:29 IST" duration-ms="17058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySortByNewestFirst()[pri:7, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:04:29 IST" name="verifySortByNewestFirst" finished-at="2025-12-30T17:04:47 IST" duration-ms="18921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByNewestFirst -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:04:47 IST" name="tearDown" finished-at="2025-12-30T17:04:48 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:04:48 IST" name="setUp" finished-at="2025-12-30T17:05:07 IST" duration-ms="18767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMultipleSortOperations()[pri:9, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:05:07 IST" name="verifyMultipleSortOperations" finished-at="2025-12-30T17:05:23 IST" duration-ms="16614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleSortOperations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:05:23 IST" name="tearDown" finished-at="2025-12-30T17:05:24 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:05:24 IST" name="setUp" finished-at="2025-12-30T17:05:40 IST" duration-ms="15949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductSearchWithSecondSuggestionText()[pri:10, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:05:40 IST" name="verifyProductSearchWithSecondSuggestionText" finished-at="2025-12-30T17:05:53 IST" duration-ms="13235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearchWithSecondSuggestionText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.SearchResultFilterTest@542e560f]" started-at="2025-12-30T17:05:53 IST" name="tearDown" finished-at="2025-12-30T17:05:53 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.testcases.SearchResultFilterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

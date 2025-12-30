@@ -1,7 +1,5 @@
 package com.flipkart.testcases;
 
-import static org.testng.Assert.assertTrue;
-
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;

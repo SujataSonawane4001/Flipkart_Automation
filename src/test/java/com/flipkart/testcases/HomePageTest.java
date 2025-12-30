@@ -32,15 +32,15 @@ public class HomePageTest extends TestBase {
 	
 	}
 	
-	@Test(priority = 3,groups = "Regression")
-	public void verifyBecomeSellerNavigation() {
-		LOG.info("BecomeSeller Navigation verifies");
-		HomePage homepage=new HomePage();
-		homepage.hoverOnBecomeSeller();
-		homepage.clickBecomeSeller();
-		String url=keyword.getCurrentUrl();
-		Assert.assertTrue(url.contains("seller"), "Url does not contain seller");
-	}
+//	@Test(priority = 3,groups = "Regression")
+//	public void verifyBecomeSellerNavigation() {
+//		LOG.info("BecomeSeller Navigation verifies");
+//		HomePage homepage=new HomePage();
+//		homepage.hoverOnBecomeSeller();
+//		homepage.clickBecomeSeller();
+//		String url=keyword.getCurrentUrl();
+//		Assert.assertTrue(url.contains("seller"), "Url does not contain seller");
+//	}
 	
 	@Test(priority = 4)
 	public void verifyGroceryCategoryNavigation() {

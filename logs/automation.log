@@ -1794,3 +1794,21 @@
 15:59:03.908 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality verifies
 16:03:06.457 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
 16:03:17.622 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality With BuyNowOption verifies
+16:59:29.981 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:00:14.367 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Default Sorting verifies
+17:00:35.946 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:01:08.793 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Result Count IsDisplayed verifies
+17:01:33.759 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:01:48.289 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort ByReleveance verifies
+17:02:11.515 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:02:26.910 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Product Count Remains Same After Sort ByReleveance verifies
+17:02:44.771 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:03:11.639 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Popularity verifies
+17:03:32.468 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:03:49.535 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Price LowToHigh verifies
+17:04:11.956 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:04:29.022 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By NewestFirst verifies
+17:04:48.361 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:05:07.131 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Sort By Multiple Sort Operation verifies
+17:05:24.158 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+17:05:40.107 [main] INFO  com.flipkart.testcases.SearchResultFilterTest - Product Search With Second Suggestion Text verifies
