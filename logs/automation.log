@@ -1776,3 +1776,9 @@
 13:02:29.726 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
 13:21:01.941 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
 13:21:28.479 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+13:29:48.744 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+13:30:11.761 [main] INFO  com.flipkart.testcases.HomePageTest - Logo verifies
+13:30:13.331 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+13:30:24.341 [main] INFO  com.flipkart.testcases.HomePageTest - LoginButton verifies
+13:30:29.655 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+13:30:40.640 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
