@@ -1774,3 +1774,5 @@
 12:39:06.596 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
 12:39:17.828 [main] INFO  com.flipkart.testcases.SignInPageTest - Validation Message verifies
 13:02:29.726 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+13:21:01.941 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+13:21:28.479 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
