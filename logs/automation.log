@@ -1790,3 +1790,7 @@
 15:16:33.292 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
 15:19:27.145 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
 15:19:47.243 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
+15:58:50.591 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+15:59:03.908 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality verifies
+16:03:06.457 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+16:03:17.622 [main] INFO  com.flipkart.testcases.AddToCartTest - AddToCart Functionality With BuyNowOption verifies

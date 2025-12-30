@@ -27,6 +27,7 @@ public class TestBase {
 			keyword.openBrowser(TestUtils.getBrowserName());
 			
 		}
+		keyword.deletecookies();
 		keyword.launchUrl(TestUtils.getURL());
 		keyword.maximizeBrowser();
 	}

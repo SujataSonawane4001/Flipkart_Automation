@@ -26,12 +26,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 
-
-
 public class Keyword {
 
 	public static RemoteWebDriver driver;
-    private static final Logger LOG = LogManager.getLogger(Keyword.class);
+	private static final Logger LOG = LogManager.getLogger(Keyword.class);
 
 	public void openBrowser(String browserName) {
 		if (browserName == null) {
@@ -86,54 +84,54 @@ public class Keyword {
 		element.sendKeys(enter);
 
 	}
-	
+
 	public static String getTitleForCurrentPage() {
 		String currentPageTitle = driver.getTitle();
 		return currentPageTitle;
 
 	}
+
 	public static void verifyNavigation(String expectedTitle) {
 		String actualTitle = Keyword.getTitleForCurrentPage();
 		Assert.assertEquals(actualTitle, expectedTitle);
 	}
 
-	
-
 	public void mouseHoverOn(WebElement element) {
 		Actions actions = new Actions(Keyword.driver);
 		actions.moveToElement(element).perform();
 	}
-	
-	
-	
+
 	public static void refreshPage() {
-  	  driver.navigate().refresh();
-    }
-	
+		driver.navigate().refresh();
+	}
+
+	public void deletecookies() {
+		driver.manage().deleteAllCookies();
+	}
+
 	public String getCurrentUrl() {
 		return driver.getCurrentUrl();
 	}
-	
+
 	public Boolean isEnabled(WebElement element) {
 		return element.isEnabled();
 	}
-	
+
 	public Boolean isDisplayed(WebElement element) {
 		return element.isDisplayed();
 	}
-	
+
 	public void pageScrollDown(WebElement element) {
-		JavascriptExecutor js=(JavascriptExecutor)driver;
-		js.executeScript("arguments[0].scrollIntoView[true];",element);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView[true];", element);
 	}
-	
-	
+
 	public static List<WebElement> getListOfWebElements(List<WebElement> elements) {
 		WaitFor.visibilityOfallElements(elements);
 		return elements;
-		
+
 	}
-	
+
 	public void switchToWindowByTitle(String expectedTitleSubstring) {
 		Set<String> allWindows = driver.getWindowHandles();
 		for (String handle : allWindows) {
@@ -145,8 +143,6 @@ public class Keyword {
 		}
 	}
 
-	
-	
 	public String randomString() {
 		String generatedString = RandomStringUtils.randomAlphabetic(5);
 		return generatedString;
@@ -162,23 +158,20 @@ public class Keyword {
 		String generatedNumber = RandomStringUtils.randomNumeric(3);
 		return (generatedString + "@" + generatedNumber);
 	}
-	
+
 	public String captureScreen(String tname) throws IOException {
-		
-		String timeStamp=new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		
-		TakesScreenshot takeScreenshot=(TakesScreenshot)driver;
-		File sourceFile=takeScreenshot.getScreenshotAs(OutputType.FILE);
-		
-		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\"+ tname +"_"+ timeStamp +".png"; 
-	    File targetFile=new File(targetFilePath);
-	    
-	    sourceFile.renameTo(targetFile);
-	    return targetFilePath; 
-	
-	
+
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+
+		TakesScreenshot takeScreenshot = (TakesScreenshot) driver;
+		File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);
+
+		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		File targetFile = new File(targetFilePath);
+
+		sourceFile.renameTo(targetFile);
+		return targetFilePath;
+
 	}
-	
-	
 
 }
