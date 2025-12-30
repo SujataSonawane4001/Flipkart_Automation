@@ -1782,3 +1782,11 @@
 13:30:24.341 [main] INFO  com.flipkart.testcases.HomePageTest - LoginButton verifies
 13:30:29.655 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
 13:30:40.640 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
+15:08:43.833 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+15:08:58.807 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
+15:11:58.971 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+15:12:18.550 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
+15:16:17.404 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+15:16:33.292 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies
+15:19:27.145 [main] INFO  com.flipkart.base.Keyword - Launching Chrome browser
+15:19:47.243 [main] INFO  com.flipkart.testcases.HomePageTest - BecomeSeller Navigation verifies

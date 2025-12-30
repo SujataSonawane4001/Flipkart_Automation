@@ -123,6 +123,10 @@ public class HomePage{
 		grocery.click();
 	}
 	
+	public void hoverOnBecomeSeller() {
+	    keyword.mouseHoverOn(becomeSellerlnk);
+	}
+	
 	public void hoverOnFashion() {
 	    keyword.mouseHoverOn(Fashion);
 	}

@@ -36,6 +36,7 @@ public class HomePageTest extends TestBase {
 	public void verifyBecomeSellerNavigation() {
 		LOG.info("BecomeSeller Navigation verifies");
 		HomePage homepage=new HomePage();
+		homepage.hoverOnBecomeSeller();
 		homepage.clickBecomeSeller();
 		String url=keyword.getCurrentUrl();
 		Assert.assertTrue(url.contains("seller"), "Url does not contain seller");
